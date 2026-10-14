@@ -1,7 +1,8 @@
-#!/bin/bash
+START_TIME=$(date +%s)
+echo "Execution start time=$START_TIME"
 
-Person1=$1
-Person2=$2
+END_TIME=$(date +%s)
+echo "Execution start time=$END_TIME"
 
-echo "$Person1 :: Hi $Person2"
-echo "$Person2 :: Hi $Person1 "
+TOTAL_TIME=$(($END_TIME-$START_TIME))
+ech "TOTAL_TIME=$TOTAL_TIME"
