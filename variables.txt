@@ -5,4 +5,4 @@ END_TIME=$(date +%s)
 echo "Execution start time=$END_TIME"
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
-ech "TOTAL_TIME=$TOTAL_TIME"
+echo "TOTAL_TIME=$TOTAL_TIME"
