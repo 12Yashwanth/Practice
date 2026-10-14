@@ -1,0 +1,7 @@
+echo "Please enter your username:"
+read -s USER_NAME
+
+ech "Please enter your password:"
+read -s password
+
+echo "username=$USER_NAME and password=$password"
