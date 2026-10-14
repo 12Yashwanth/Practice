@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "Yash :: Hi Akhi"
-echo "Akhi :: Hi Yash"
+Person1=$1
+Person2=$2
+
+echo "$Person1 :: Hi $Person2"
+echo "$Person2 :: Hi $Person1 "
